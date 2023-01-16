@@ -4,7 +4,7 @@
 
 trigger:
 - master
-
+pool: 
 resources:
 - repo: self
 
