@@ -12,7 +12,7 @@ resources:
 variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: 'dd2707a9-e80b-4b1a-9081-cc5c7e39df2a'
-  imageRepository: 'newaksazurerepo'
+  imageRepository: 'demorepo/dockerimage'
   containerRegistry: 'prajwalnewacr.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/18-Azure-Container-Registry-ACR/18-01-ACR-attach-to-AKS/docker-manifests/Dockerfile'
   tag: '$(Build.BuildId)'
